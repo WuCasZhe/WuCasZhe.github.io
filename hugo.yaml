@@ -1,6 +1,6 @@
 baseURL: "https://wucaszhe.github.io/" # 主站的 URL
-title: WangcasZhe # 站点标题
-copyright: "[©2026 WangcasZhe](https://wucaszhe.github.io/)" # 网站的版权声明，通常显示在页脚
+title: WuCasZhe # 站点标题
+copyright: "[©2026 WuCasZhe](https://wucaszhe.github.io/)" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
 languageCode: zh-cn # 语言
 
@@ -49,8 +49,8 @@ pagination:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "WangcasZhe 的个人主页，记录文章、技术笔记与日常思考。"
-  author: WangcasZhe
+  description: "WuCasZhe 的个人主页，记录文章、技术笔记与日常思考。"
+  author: WuCasZhe
   defaultTheme: white # 默认是暗色背景
   ShowShareButtons: false # 关闭分享的按钮
   ShowReadingTime: true # 展示预估的阅读时长
@@ -68,7 +68,7 @@ params:
 # 个人主页模式：首页不再显示文章列表
   profileMode:
     enabled: true
-    title: "WangcasZhe 👋"
+    title: "WuCasZhe 👋"
     subtitle: "欢迎来到我的个人主页，这里记录文章、技术笔记与日常思考。"
     buttons:
       - name: 浏览文章
