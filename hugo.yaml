@@ -1,6 +1,6 @@
-baseURL: "https://WangcasZhe.github.io/" # 主站的 URL
+baseURL: "https://wucaszhe.github.io/" # 主站的 URL
 title: WangcasZhe's Blog # 站点标题
-copyright: "[©2025 WangcasZhe's Blog](https://WangcasZhe.github.io/)" # 网站的版权声明，通常显示在页脚
+copyright: "[©2025 WangcasZhe's Blog](https://wucaszhe.github.io/)" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
 languageCode: zh-cn # 语言
 
@@ -83,7 +83,7 @@ params:
   socialIcons:
   - name: github
     title: Follow my Github
-    url: "https://github.com/WangcasZhe"
+    url: "https://github.com/WuCasZhe"
   # - name: X
   #   title: Follow my Twitter
   #   url: "https://x.com/komorebi_233333"
@@ -117,7 +117,7 @@ params:
       disableHLJS: true
   # 评论的设置
   # giscus:
-  #   repo: "WangcasZhe/WangcasZhe.github.io"
+  #   repo: "WuCasZhe/WuCasZhe.github.io"
   #   repoId: "R_kgDONJ1RRg"
   #   category: "Announcements"
   #   categoryId: "DIC_kwDONJ1RRs4Cj8TA"
