@@ -5,8 +5,12 @@ draft: false
 categories: ["codex"]
 summary: "VS Code + WSL2 配置 Codex"
 ---
+本文主要针对 WSL2 环境中 Codex 登录时出现 `token_exchange_failed` 错误的问题。
 
-本文主要针对WSL2中Codex登录时出现的“token_exchange_failed”错误，默认已完成vscode+WSL2配置和Windows端的Codex登录。
+需要已经完成以下配置：
+
+- 已安装并配置 VS Code + WSL2
+- 已在 Windows 端成功登录 Codex
 
 ## 一、WSL 的网络代理
 
