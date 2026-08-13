@@ -21,7 +21,6 @@ languages:
     weight: 1 # 权重
     taxonomies: # 分类系统
       category: categories
-      tag: tags
     # https://gohugo.io/content-management/menus/#define-in-site-configuration
     menus:
       main:
@@ -66,16 +65,16 @@ params:
   comments: true # 评论
   images: [""] # 缺省的图片，比如，博客的封面
   DateFormat: "2006-01-02" # 这个时间是作者自己写的，只能这样写
-# 首页的文章上方的一些信息
-  homeInfoParams:
-    # 首页的 profile 内容
-    Title: "WangcasZhe 的个人主页 👋"
-    # 首页的 profile 内容
-    Content: >
-      欢迎来到我的个人主页，这里记录文章、技术笔记与日常思考。
-      <div>
-      ● 持续学习，持续记录
-      </div>
+# 个人主页模式：首页不再显示文章列表
+  profileMode:
+    enabled: true
+    title: "WangcasZhe 👋"
+    subtitle: "欢迎来到我的个人主页，这里记录文章、技术笔记与日常思考。"
+    buttons:
+      - name: 浏览文章
+        url: "/posts/"
+      - name: 搜索内容
+        url: "/search/"
       
   socialIcons:
   - name: github
