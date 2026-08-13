@@ -5,12 +5,14 @@ draft: false
 categories: ["codex"]
 summary: "VS Code + WSL2 配置 Codex"
 ---
+
 本文主要针对 WSL2 环境中 Codex 登录时出现 `token_exchange_failed` 错误的问题。
 
 需要已经完成以下配置：
 
 - 已安装并配置 VS Code + WSL2
 - 已在 Windows 端成功登录 Codex
+
 ## 一、WSL 的网络代理
 
 ### 1. 确认 Windows 代理端口
@@ -24,6 +26,7 @@ NAT 网络下，从默认路由动态获取WSL2宿主机地址：
 ```bash
 ip route show default | awk '{print $3; exit}'
 ```
+
 因为 WSL 重启后地址可能改变，故不使用固定地址。
 
 ### 3. 配置代理
@@ -35,6 +38,7 @@ nano ~/.bashrc
 ```
 
 在文件末尾粘贴：
+
 ```bash
 HOST_IP=$(ip route | awk '/^default/ {print $3}')
 PROXY_PORT=7890 #自行根据端口修改
@@ -51,6 +55,7 @@ proxyoff() { unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY; echo "[proxy] 
 ### 直接安装
 
 Codex最新教程支持直接安装
+
 ```bash
 curl -fsSL https://chatgpt.com/codex/install.sh | sh
 codex --version
@@ -79,11 +84,16 @@ export PATH="$HOME/.npm-global/bin:$PATH"
 ```
 
 ## 三、完成 Codex 登录
+
 标准流程：
+
 ```bash
 codex login
 ```
-选择 **Sign in with ChatGPT**可能会报错token_exchange_failed![alt text](token_exchange_failed.png)
+
+选择 **Sign in with ChatGPT**可能会报错token_exchange_failed
+
+![alt text](/images/vscode-wsl2-codex-setup/token_exchange_failed.png)
 
 ### 复用 Windows 的auth.json
 
@@ -111,4 +121,3 @@ codex login --device-auth
 ```
 
 终端会给出一个网址和一次性代码。在 Windows 浏览器中打开网址，登录并输入代码即可。需要账号或工作区允许设备码登录。
-
