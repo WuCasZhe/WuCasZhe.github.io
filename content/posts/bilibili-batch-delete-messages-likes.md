@@ -3,7 +3,7 @@ title: "批量删除bilibili收到的消息和点赞"
 date: 2026-08-14T08:30:00+08:00
 draft: false
 categories: ["bilibili"]
-summary: "批量删除哔哩哔哩收到的会话消息和赞。"
+summary: "自用"
 ---
 
 
