@@ -1,5 +1,5 @@
 ---
-title: "批量删除bilibili收到的消息和点赞"
+title: "bilibili批量删除回信和点赞"
 date: 2026-08-14T08:30:00+08:00
 draft: false
 categories: ["bilibili"]
