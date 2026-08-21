@@ -1,5 +1,5 @@
 ---
-title: "VS Code + Codex SSH 服务器反向端口转发"
+title: "VS Code ssh服务器反代使用 Codex "
 date: 2026-08-21T08:30:00+08:00
 draft: false
 categories: ["codex"]
