@@ -1,5 +1,5 @@
 ---
-title: "bilibili批量删除回信和点赞"
+title: "bilibili 批量删除回信和点赞"
 date: 2026-08-14T08:30:00+08:00
 draft: false
 categories: ["bilibili"]
@@ -45,7 +45,7 @@ summary: "自用"
 
 
 ## 二、批量删除收到的赞
-
+·
 将下面的代码复制到控制台，按回车执行：
 
 ```javascript
