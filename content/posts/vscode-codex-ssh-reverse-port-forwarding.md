@@ -1,12 +1,12 @@
 ---
-title: "VS Code ssh服务器反代使用 Codex "
+title: "服务器通过本地代理使用 Codex "
 date: 2026-08-21T08:30:00+08:00
 draft: false
 categories: ["codex"]
-summary: "通过 SSH 反向端口转发，让远程服务器上的 Codex 使用本机代理"
+summary: "通过 VS Code SSH 反向端口转发，让远程服务器上的 Codex 使用本机代理"
 ---
 
-本文记录通过 SSH 反向端口转发，让远程服务器上的 Codex 使用本机代理的经验。
+本文记录通过 SSH 反向端口转发，让远程服务器上的 Codex 使用本地代理的经验。
 
 ## 一、准备
 
